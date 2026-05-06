@@ -1,0 +1,68 @@
+import type { RawTicket } from '@/lib/types'
+
+export const MOCK_TICKETS: RawTicket[] = [
+  {
+    id: 'TK-001',
+    customerName: 'Alex Rivera',
+    customerEmail: 'alex.rivera@email.com',
+    subject: 'Left click double-firing after 3 weeks',
+    body: `Hi, I bought the PulseForge Viper X about 3 weeks ago and the left mouse button has started double-clicking on its own. I'll single-click an icon and it opens and immediately closes, or I'll try to drag something and it drops it mid-drag. It's making the mouse completely unusable for gaming. Order number PF-2025-88421. Please help.`,
+    submittedAt: '2026-05-05T09:14:00Z',
+  },
+  {
+    id: 'TK-002',
+    customerName: 'Priya Nair',
+    customerEmail: 'priya.nair@email.com',
+    subject: 'Scroll wheel skipping — very frustrating in-game',
+    body: `My PulseForge Apex Pro scroll wheel has been skipping steps for the past week. When I scroll down one notch it sometimes jumps two or three steps, and other times it scrolls backward. It happens in browsers and in-game. I've tried different USB ports and reinstalled drivers — same problem. I've had the mouse for about 8 months. Order PF-2025-44009.`,
+    submittedAt: '2026-05-05T11:02:00Z',
+  },
+  {
+    id: 'TK-003',
+    customerName: 'Marcus Webb',
+    customerEmail: 'marcus.webb@email.com',
+    subject: 'DPI sensor randomly jumps at 1600 DPI',
+    body: `I've been using the PulseForge Phantom for 5 months and recently my cursor has been randomly jumping/spiking on screen, especially at the 1600 DPI setting. It'll track fine for a minute and then suddenly shoot to the corner of the screen. I've cleaned the sensor, tried different surfaces, and updated the firmware — still happening. Makes competitive play impossible. Order: PF-2025-51872.`,
+    submittedAt: '2026-05-05T13:45:00Z',
+  },
+  {
+    id: 'TK-004',
+    customerName: 'Sarah Kim',
+    customerEmail: 'sarah.kim@email.com',
+    subject: 'RGB lighting dead after firmware update',
+    body: `I ran the firmware update through PulseSync last night and now my RGB lighting is completely off. The mouse still works fine functionally — clicks, DPI, everything — but none of the LEDs light up at all. I've tried resetting the lighting profile in PulseSync and even uninstalling and reinstalling the app. The lighting was the main reason I bought this mouse. Mouse model: PulseForge Nova RGB. Order PF-2026-02341.`,
+    submittedAt: '2026-05-05T15:30:00Z',
+  },
+  {
+    id: 'TK-005',
+    customerName: "James O'Brien",
+    customerEmail: 'james.obrien@email.com',
+    subject: 'Order still not shipped — I have a tournament in 3 days',
+    body: `I placed order PF-2026-08812 two weeks ago and it still hasn't shipped. The tracking page just says "label created" and hasn't updated since. I specifically ordered early because I have a regional esports tournament this Saturday and I need this mouse. I paid for standard shipping which said 5-7 business days. This is 14 days now. I need this resolved immediately or I need a refund so I can buy locally.`,
+    submittedAt: '2026-05-05T16:55:00Z',
+  },
+  {
+    id: 'TK-006',
+    customerName: 'Diana Flores',
+    customerEmail: 'diana.flores@email.com',
+    subject: 'Refund request — changed my mind, box is unopened',
+    body: `Hi, I ordered the PulseForge Stealth last week (order PF-2026-09104) but I've decided to go with a different mouse instead. The box has never been opened — still has the factory seal. I'd like to return it for a full refund. I received it 5 days ago. Please let me know the return process and where to ship it back.`,
+    submittedAt: '2026-05-06T08:20:00Z',
+  },
+  {
+    id: 'TK-007',
+    customerName: 'Chen Wei',
+    customerEmail: 'chen.wei@email.com',
+    subject: 'Left click stopped registering — still under warranty',
+    body: `My PulseForge Viper X left click has completely stopped registering. I have to click 4-5 times for it to register a single click, and sometimes it doesn't register at all. I purchased it 5 months ago (order PF-2025-67334) so it should be well within the 12-month warranty. I need this replaced as soon as possible as it's my primary work and gaming mouse.`,
+    submittedAt: '2026-05-06T09:10:00Z',
+  },
+  {
+    id: 'TK-008',
+    customerName: 'Fatima Hassan',
+    customerEmail: 'fatima.hassan@email.com',
+    subject: 'PulseSync software crashes immediately on Windows 11',
+    body: `I just got the PulseForge Nova RGB and I can't get PulseSync to work at all. Every time I launch it on Windows 11, it opens a splash screen for about 2 seconds and then crashes with no error message. I've tried running as administrator, reinstalling three times, and disabling antivirus. The mouse itself works as a basic plug-and-play mouse but I can't configure any DPI or RGB settings. Windows 11 Home, version 24H2. Order PF-2026-10087.`,
+    submittedAt: '2026-05-06T10:05:00Z',
+  },
+]
